@@ -1,0 +1,4 @@
+node_modules
+cypress/screenshots
+cypress/fixtures/data.json
+cypress/support/commands.js
