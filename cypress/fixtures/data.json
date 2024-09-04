@@ -1,0 +1,29 @@
+{
+  "test5" : {
+    "requestType": "GET",
+    "contentType": "application/json",
+    "pageSize": "5",
+    "cookie" : ""
+  },
+
+  "test10" : {
+    "requestType": "GET",
+    "contentType": "application/json",
+    "pageSize": "10",
+    "cookie" : ""
+  },
+
+  "test20" : {
+    "requestType": "GET",
+    "contentType": "application/json",
+    "pageSize": "20",
+    "cookie" : ""
+  },
+
+  "test50" : {
+    "requestType": "GET",
+    "contentType": "application/json",
+    "pageSize": "50",
+    "cookie" : ""
+  }
+}

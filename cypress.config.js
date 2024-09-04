@@ -8,4 +8,7 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
   },
+  env: {
+    baseUrl: "https://stage-amexbpp.paymentlogic.com.au/",
+  }
 });

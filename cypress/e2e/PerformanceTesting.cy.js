@@ -5,7 +5,7 @@ import data from "../fixtures/data.json";
 describe('Performance testing', () => {
     it('PageSize=5', () => {
         var i = 1;
-        for (i = 1; i < 50 ; i++) {
+        for (i = 1; i < 150 ; i++) {
             cy.log('Attempt # ' + i + ' in accessing Transaction History endpoint')
             cy.invokeTransactionHistoryEndpoint(data.test5, i).then((apiResponse) => {
                 expect(200).to.equal(apiResponse.status);
@@ -15,7 +15,7 @@ describe('Performance testing', () => {
 
     it('PageSize=10', () => {
         var i = 1;
-        for (i = 1; i < 40 ; i++) {
+        for (i = 1; i < 130 ; i++) {
             cy.log('Attempt # ' + i + ' in accessing Transaction History endpoint')
             cy.invokeTransactionHistoryEndpoint(data.test10, i).then((apiResponse) => {
                 expect(200).to.equal(apiResponse.status);
@@ -25,7 +25,7 @@ describe('Performance testing', () => {
 
     it('PageSize=20', () => {
         var i = 1;
-        for (i = 1; i < 30 ; i++) {
+        for (i = 1; i < 120 ; i++) {
             cy.log('Attempt # ' + i + ' in accessing Transaction History endpoint')
             cy.invokeTransactionHistoryEndpoint(data.test20, i).then((apiResponse) => {
                 expect(200).to.equal(apiResponse.status);
@@ -35,7 +35,7 @@ describe('Performance testing', () => {
 
     it('PageSize=50', () => {
         var i = 1;
-        for (i = 1; i < 20 ; i++) {
+        for (i = 1; i < 100 ; i++) {
             cy.log('Attempt # ' + i + ' in accessing Transaction History endpoint')
             cy.invokeTransactionHistoryEndpoint(data.test50, i).then((apiResponse) => {
                 expect(200).to.equal(apiResponse.status);
