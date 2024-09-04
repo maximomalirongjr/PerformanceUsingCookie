@@ -3,7 +3,7 @@
 import data from "../fixtures/data.json";
 
 describe('Performance testing', () => {
-    it.skip('PageSize=5', () => {
+    it('PageSize=5', () => {
         var i = 1;
         for (i = 1; i < 50 ; i++) {
             cy.log('Attempt # ' + i + ' in accessing Transaction History endpoint')
@@ -13,7 +13,7 @@ describe('Performance testing', () => {
         }
     });
 
-    it.skip('PageSize=10', () => {
+    it('PageSize=10', () => {
         var i = 1;
         for (i = 1; i < 40 ; i++) {
             cy.log('Attempt # ' + i + ' in accessing Transaction History endpoint')
@@ -23,7 +23,7 @@ describe('Performance testing', () => {
         }
     });
 
-    it.skip('PageSize=20', () => {
+    it('PageSize=20', () => {
         var i = 1;
         for (i = 1; i < 30 ; i++) {
             cy.log('Attempt # ' + i + ' in accessing Transaction History endpoint')
@@ -33,7 +33,7 @@ describe('Performance testing', () => {
         }
     });
 
-    it.skip('PageSize=50', () => {
+    it('PageSize=50', () => {
         var i = 1;
         for (i = 1; i < 20 ; i++) {
             cy.log('Attempt # ' + i + ' in accessing Transaction History endpoint')
