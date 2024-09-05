@@ -1,29 +1,10 @@
 {
-  "test5" : {
+  "test" : {
     "requestType": "GET",
     "contentType": "application/json",
+    "_comment": "page size values: 5, 10, 20, 50",
     "pageSize": "5",
-    "cookie" : ""
-  },
-
-  "test10" : {
-    "requestType": "GET",
-    "contentType": "application/json",
-    "pageSize": "10",
-    "cookie" : ""
-  },
-
-  "test20" : {
-    "requestType": "GET",
-    "contentType": "application/json",
-    "pageSize": "20",
-    "cookie" : ""
-  },
-
-  "test50" : {
-    "requestType": "GET",
-    "contentType": "application/json",
-    "pageSize": "50",
-    "cookie" : ""
+    "maxAttempt": "3",
+    "cookie" : "_ga=GA1.3.426076990.1708913138; _ga_ZKN47T3WDW=GS1.1.1711088035.1.1.1711088058.0.0.0; _hjSessionUser_2844777=eyJpZCI6ImY3NWU3YjczLTI1YTMtNTk3OC1iNTZhLWI4MjczZDM5MjRmZCIsImNyZWF0ZWQiOjE3MTIyOTc2MzU3NzUsImV4aXN0aW5nIjpmYWxzZX0=; _gid=GA1.3.1514813509.1725251846; Authentication=DeviceId=gRhiDmOBe1/dNtXvqqjQSXCORgjArbyxwx75PKYCJv+8R9oPH2CLASWSLbSbp+Xp5I07xXSeu8KjIjTUNh7CsQ==; Id=g1hmc2fvzr520zao4txs0phx; __RequestVerificationToken=SwwNvjRJoOGuMYEXGr5VTbNXvROTyNjhrvs96FydNN9b5wu1QqEPPH0ywxzBIMfUvgfwkn_W4J-C8-nVwdUVQfjpSYeQDsZbUFeT11qKBBY1; .FormsId=171AA302D2E0B2C2F71BF1100FBCE7171818327E43DDBFE65E96B7E8A8A615B349028ABE7DBCB9EAFCBEB615FF0098C8BC8C5F03D0C515B6C8D813F6B11B1A43F74D756C8BB9BAC5C878DD37DC8CBDB3175A2456C54A256D0E0AA4BE05C6B87A; SelectedReseller=AllReseller"
   }
 }
